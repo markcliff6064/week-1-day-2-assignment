@@ -19,7 +19,7 @@ A simple personal business card containing:
 **Files:**
 
 * `business-card.html`
-* `style.css`
+* `style1.css`
 
 ### 2. Pricing Cards
 
@@ -36,7 +36,7 @@ The cards use Flexbox and are responsive on mobile devices.
 **Files:**
 
 * `pricing.html`
-* `pricing.css`
+* `style2.css`
 
 ## Technologies
 
