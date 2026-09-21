@@ -14,6 +14,8 @@ A simple personal business card containing:
 * Skills
 * Contact form
 
+![Computer view of Business Card](https://github.com/markcliff6064/week-1-day-2-assignment/blob/072df7233c7a047f5ab17c13515bf86ecf6b2db0/Screenshot0.jpg)
+
 **Files:**
 
 * `business-card.html`
@@ -28,6 +30,8 @@ A pricing page with three plans:
 * Enterprise — KES 5,000/month
 
 The cards use Flexbox and are responsive on mobile devices.
+
+![Computer view of Pricing Cards](https://github.com/markcliff6064/week-1-day-2-assignment/blob/072df7233c7a047f5ab17c13515bf86ecf6b2db0/Screenshot1.png)
 
 **Files:**
 
