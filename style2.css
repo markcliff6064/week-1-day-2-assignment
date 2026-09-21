@@ -1,0 +1,125 @@
+/* Page styling, shows how the page looks in the background */
+body {
+margin: 0;
+padding: 40px 20px;
+background-color: #f5f5f5;
+font-family: Arial, sans-serif;
+color: #333;
+}
+
+/* Pricing container holds the pricing cards */
+.pricing-container {
+display: flex;
+justify-content: center;
+gap: 25px;
+align-items: stretch;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+/* Pricing cards */
+.pricing-card {
+width: 100%;
+max-width: 350px;
+background-color: white;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+box-sizing: border-box;
+text-align: center;
+}
+
+/* Plan name */
+.pricing-card h2 {
+margin-top: 0;
+color: #222;
+}
+
+/* Price */
+.price {
+font-size: 32px;
+font-weight: bold;
+color: #2563eb;
+margin: 20px 0;
+}
+
+/* Feature list */
+.pricing-card ul {
+list-style: none;
+padding: 0;
+margin: 25px 0;
+text-align: left;
+}
+
+/* Features */
+.pricing-card li {
+padding: 10px 0;
+border-bottom: 1px solid #eee;
+}
+
+/* Buttons */
+.pricing-card button {
+width: 100%;
+background-color: #2563eb;
+color: white;
+border: none;
+padding: 12px 20px;
+border-radius: 8px;
+cursor: pointer;
+font-size: 16px;
+}
+
+/* Button hover, shows the movement slightly when the user hovers over it */
+.pricing-card button:hover {
+background-color: #0a0a0a;
+transform: scale(1.05);
+box-shadow: 0 8px 24px rgba(32, 29, 29, 0.15);
+transition: all 0.3s ease;
+}
+
+/* Pro card */
+.pro {
+background-color: #eff6ff;
+transform: scale(1.05);
+border: 2px solid #2563eb;
+position: relative;
+}
+
+/* Most Popular badge */
+.badge {
+position: absolute;
+top: -14px;
+left: 50%;
+transform: translateX(-50%);
+background-color: #2563eb;
+color: white;
+padding: 6px 15px;
+border-radius: 20px;
+font-size: 13px;
+font-weight: bold;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+
+
+body {
+    padding: 30px 15px;
+}
+
+.pricing-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.pricing-card {
+    max-width: 100%;
+    width: 100%;
+}
+
+.pro {
+    transform: none;
+}
+
+}
